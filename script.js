@@ -79,7 +79,6 @@ div_end.textContent = ("TOTAL : R$ 00.00");
            div_end.textContent = ("TOTAL : R$ " + total_final);
        };
        if((ctd_in > 1)&&(ctd_mei>1)){
-           alert("no");
            ctd_mei--;
            total_mei -=(entre/2);
            var total_final = total_in + total_mei;
