@@ -1,0 +1,121 @@
+h1 {
+  width:300px;
+  margin: 0 auto;
+  font-weight: normal;
+  text-align: center;
+  background-color: #EEE;
+  font-family: "arial", "verdana", "open sans", sans-serif;
+}
+h2{
+  width:300px;
+  margin: 0 auto;
+  font-weight: normal;
+  text-align: center;
+  background-color: #EEE;
+  font-family: "arial", "verdana", "open sans", sans-serif;
+}
+
+table {
+  border-style: solid;
+  border-color: white;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+td, th {
+  padding: 1px;
+  border-style: solid double;
+  border-width: 1px;
+  border-color: black;
+}
+/* .nomedaclasse */
+  .pol {
+  background-color: pink;
+  color : white;
+}
+td.meia{
+    background-color: yellow;
+}
+
+td.inteira{
+    background-color: red;
+}
+.oculta{
+  visibility: collapse;
+}
+.entra_input{
+  width:65px;
+	height:17px;
+  position:absolute;
+  top:39%;
+  left:50%;
+  margin-top:-35px;
+  margin-left:-35px;
+}
+.div{
+  width:10px;
+  height:30px;
+  position:absolute;
+  top:43.5%;
+  left:50%;
+  margin-top:-60px;
+  margin-left:-60px;
+}
+.valor_calculado{
+  width:10px;
+  height:30px;
+  position:absolute;
+  top:52%;
+  left:50%;
+  margin-top:-60px;
+  margin-left:-60px;
+}
+.total_mei{
+  white-space: nowrap;
+  width:10px;
+  height:30px;
+  position:absolute;
+  top:70%;
+  left:48%;
+  margin-top:-60px;
+  margin-left:-60px;
+}
+.total_in{
+  white-space: nowrap;
+  width:10px;
+  height:30px;
+  position:absolute;
+  top:80%;
+  left:48%;
+  margin-top:-60px;
+  margin-left:-60px;
+}
+.total_final{
+  white-space: nowrap;
+  width:10px;
+  height:30px;
+  position:absolute;
+  top:90%;
+  left:48%;
+  margin-top:-60px;
+  margin-left:-60px;
+}
+.text_in{
+  white-space: nowrap;
+  width:10px;
+  height:30px;
+  position:absolute;
+  top:45%;
+  left:48%;
+  margin-top:-100px;
+  margin-left:+40px;
+}
+.text_mei{
+  white-space: nowrap;
+  width:10px;
+  height:30px;
+  position:absolute;
+  top:54%;
+  left:48%;
+  margin-top:-100px;
+  margin-left:+40px;
+}
