@@ -15,7 +15,7 @@ var ctd_in=0;
 var ctd_mei=0;
 var entre = inp_entrada.value;
 div_total_mei.textContent = ("0 Meia - Entrada R$0.00");
-div_total_in.textContent = ("0 Entradas Inteiras R$ 0.00");
+div_total_in.textContent = ("0 Entrada Inteira R$ 0.00");
 div_end.textContent = ("TOTAL : R$ 00.00");
 
  function addlebotao(){
@@ -43,7 +43,7 @@ div_end.textContent = ("TOTAL : R$ 00.00");
              ctd_in-=1;
              total_in-=entre;
              var total_final = total_in + total_mei;
-             div_total_in.textContent = (ctd_in + " Entrada Inteira R$ " + total_in);
+             div_total_in.textContent = (ctd_in + " Entradas Inteiras R$ " + total_in);
              div_total_mei.textContent = (ctd_mei + " Meia - Entrada R$" + total_mei);
              div_end.textContent = ("TOTAL : R$ " + total_final);
 			};
